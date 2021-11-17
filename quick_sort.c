@@ -50,7 +50,8 @@ int main() {
   // vqs[7] = -3698;
   // vqs[8] = -491;
   // vqs[9] = -9821;
-
+  //
+    //--> Vetor sendo preenchido com valores aleatorios positivos e negativos
   for (i = 0; i < tamanho; i++) {
     if( (i % 2) == 0){
       vqs[i] = rand();

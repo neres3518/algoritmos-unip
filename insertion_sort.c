@@ -36,12 +36,11 @@ int main() {
   // vis[8] = -142;
   // vis[9] = -8971;
 
- // 23 44 56 12 67 54 78 89 43 99
- // -8874 -9832 -872 -908 -5361 -763 -1342 -1432 -142 -8971
 
   // for (i = 0; i < tamanho; i++) {
   //   vis[i] = rand();
   // }
+  //--> Vetor sendo preenchido com valores aleatorios positivos e negativos
   for (i = 0; i < tamanho; i++) {
     if( (i % 2) == 0){
       vis[i] = rand();

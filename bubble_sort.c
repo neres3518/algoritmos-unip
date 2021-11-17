@@ -38,14 +38,13 @@ int main() {
   // vbs[7] = -3;
   // vbs[8] = -6;
   // vbs[9] = -66;
-// 65 43 56 43 78 12 43 8 43 68
-// 837 132 5346 4421 6543 8875 8986 245 1524 5652
-// -54 -32 -33 -76 -87 -11 -8 -3 -6 -66
-// -7831 -9891 -556 -4531 -2567 -2562 -8863 -5656 -9974 -678
+
+  //--> Vetor sendo preenchido somente com valores positivos
   // for (i = 0; i < tamanho; i++) {
   //   vbs[i] = rand();
   //
   // }
+  //--> Vetor sendo preenchido com valores aleatorios positivos e negativos
   for (i = 0; i < tamanho; i++) {
     if( (i % 2) == 0){
       vbs[i] = rand();
